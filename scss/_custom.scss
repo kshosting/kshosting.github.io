@@ -1,0 +1,277 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.top-nav {
+    width: 100%;
+    background-color: $dark-gray;
+    margin: 0;
+    padding: 0;
+}
+
+.top-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+
+    li{
+        list-style: none;
+        float: left;
+        padding: 10px 15px;
+        color: $white;
+        font-size: 13px;
+    }
+
+    li :first-child {
+        padding-left: 0px;
+    }
+
+    li i {
+        padding-right: 8px;
+    }
+}
+
+.top-list-right{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+  
+
+    li {
+        list-style: none;
+        float: right;
+        padding: 10px 15px;
+        color: $white;
+        font-size: 13px;
+    }
+
+    li :last-child{
+        padding-right: 8px; 
+    }
+
+}
+
+.top-bar {
+    color: $white;
+
+    #logo{
+        padding-left: 15px;
+    }
+
+    .top-bar-right {
+        
+        float: right;
+    }
+
+    li {
+        text-transform: uppercase;
+    }
+    
+    a {
+        color: $white;
+    }
+
+    a:hover{
+        color: $secondary;
+    }
+
+    a.current{
+        color: $secondary;
+        border-bottom: 3px solid $secondary; 
+    }
+}
+
+.showcase{
+    background: url(https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6726719ee78dabe78033950d9f3f7145&auto=format&fit=crop&w=1350&q=80);
+    background-position: center;
+    min-height: 450px;
+    color: $white;
+
+    .showcase-box {
+        padding: 20px 30px;
+        margin-top: 30px;
+        background: $primary;
+        color: $white;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+
+        p{
+            border-bottom: 1px #ccc solid;
+            padding-bottom: 10px;
+        }
+    }
+
+    .showcase-box-bottom{
+        background: $secondary;
+        padding: 10px 30px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+        .pricing span{
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        .start-link{
+            padding-top: 20px;
+
+            a{
+                color: #fff;
+            }
+        }
+    }
+}
+
+
+.domain-search{
+    background: $light-gray;
+    padding: 30px 20px 20px 20px;
+    border-bottom: 2px #ccc solid;
+    margin-bottom: 30px;
+
+    .domain-form{
+        imput, .input-group-label{
+            border-color: $medium-light-gray;
+        }
+    }
+
+}
+
+
+.p-box-1, .p-box-2, .p-box-3{
+    text-align: center;
+    margin: 15px;
+
+    .fa{
+        font-size: 80px;
+    }
+
+    .features{
+        margin: 20px 0 30px 0;
+    
+
+    li{
+        padding: 10px 0 30px 0;
+        border-bottom: #ccc solid 1px;
+    }
+
+    }
+}
+
+.p-box-1{
+    .fa{
+        color: $primary;
+    }
+    .pricing span{
+        font-size: 35px;
+        font-weight: bold;
+        color:$primary;
+    }
+}
+
+.p-box-2{
+    .fa{
+        color: $secondary;
+    }
+    .pricing span{
+        font-size: 35px;
+        font-weight: bold;
+        color:$secondary;
+    }
+}
+.p-box-3{
+    .fa{
+        color: $extra;
+    }
+    .pricing span{
+        font-size: 35px;
+        font-weight: bold;
+        color:$extra;
+    }
+}
+
+.section-a{
+    margin-top: 30px;
+    padding: 50px 0;
+    background: $light-gray;
+}
+
+
+.section-b{
+    text-align: center;
+    padding: 50px 0;
+    background: $dark-gray;
+    color: #fff;
+}
+
+.section-c{
+    text-align: center;
+    background: $primary;
+    color: $white;
+    padding: 50px 0;
+
+    h4 {
+        margin-top: 12px;
+    }
+
+    .fa {
+        font-size: 90px;
+    }
+}
+
+footer{
+    padding: 40px 10px;
+
+    img {
+        padding-top: 10px;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    #cr{
+        font-weight: bold;
+    }
+}
+
+#rightabout{
+    padding-right: 30px;
+}
+
+#leftabout {
+    img{
+        float: right;
+        padding-right: 30px;
+    }
+}
+
+#form{
+    margin: auto;
+
+    button{
+        display: block;
+        margin: 0 auto;
+        width: 150px;
+    }
+
+    textarea{
+        resize: none;
+    }
+}
+
+#loginmodal{
+    input{
+        margin: 2px auto;
+        width: 568px;
+    }
+    
+    label{
+        padding: 3px;
+    }
+
+    #submitButton{
+        margin: 0 auto
+    }
+}
